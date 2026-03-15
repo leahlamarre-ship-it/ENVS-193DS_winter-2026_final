@@ -1,0 +1,23 @@
+---
+title: "ENVS-193DS_winter-2026_final"
+author: "Leah Pettway"
+date: "03/16/26"
+format: docx
+---
+
+Github-repo-link: https://github.com/leahlamarre-ship-it/ENVS-193DS_winter-2026_final
+
+```{r}
+#| label: Set-up
+
+library(tidyverse)
+library(janitor)
+library(here)
+library(readxl)
+
+
+
+
+
+```
+
