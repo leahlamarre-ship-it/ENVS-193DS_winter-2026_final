@@ -2,7 +2,7 @@
 title: "ENVS-193DS_winter-2026_final"
 author: "Leah Pettway"
 date: "03/16/26"
-format: docx
+format: html
 ---
 
 Github-repo-link: https://github.com/leahlamarre-ship-it/ENVS-193DS_winter-2026_final
@@ -15,9 +15,11 @@ library(janitor)
 library(here)
 library(readxl)
 
+kelp <- read_csv("/Users/leahpettway/ENVS-193DS/github/ENVS-193DS_final/ENVS-193DS_winter-2026_final/data/Annual_Kelp_All_Years_20250903.csv")
 
+mopl <- read_csv("/Users/leahpettway/ENVS-193DS/github/ENVS-193DS_final/ENVS-193DS_winter-2026_final/data/MOPL_nest-site_selection_Duchardt_et_al._2019.csv")
 
-
+my_data <- read_csv("/Users/leahpettway/ENVS-193DS/github/ENVS-193DS_final/ENVS-193DS_winter-2026_final/data/Personal_data.csv")
 
 ```
 
