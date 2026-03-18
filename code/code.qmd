@@ -11,18 +11,18 @@ Github-repo-link: https://github.com/leahlamarre-ship-it/ENVS-193DS_winter-2026_
 #| label: Set-up
 #| message: false
 
-library(tidyverse)
+library(tidyverse) # loading in packages 
 library(janitor)
 library(here)
 library(readxl)
 library(dplyr)
 library(readr)
 
-kelp <- read_csv("/Users/leahpettway/ENVS-193DS/github/ENVS-193DS_final/ENVS-193DS_winter-2026_final/data/Annual_Kelp_All_Years_20250903.csv")
+kelp <- read_csv("/Users/leahpettway/ENVS-193DS/github/ENVS-193DS_final/ENVS-193DS_winter-2026_final/data/Annual_Kelp_All_Years_20250903.csv") # loading in kelp data
 
-mopl <- read_csv("/Users/leahpettway/ENVS-193DS/github/ENVS-193DS_final/ENVS-193DS_winter-2026_final/data/MOPL_nest-site_selection_Duchardt_et_al._2019.csv")
+mopl <- read_csv("/Users/leahpettway/ENVS-193DS/github/ENVS-193DS_final/ENVS-193DS_winter-2026_final/data/MOPL_nest-site_selection_Duchardt_et_al._2019.csv") # loading in mopl data
 
-my_data <- read_csv("/Users/leahpettway/ENVS-193DS/github/ENVS-193DS_final/ENVS-193DS_winter-2026_final/data/Personal_data.csv")
+my_data <- read_csv("/Users/leahpettway/ENVS-193DS/github/ENVS-193DS_final/ENVS-193DS_winter-2026_final/data/Personal_data.csv") # loading in my personal data
 
 ```
 
@@ -30,7 +30,11 @@ my_data <- read_csv("/Users/leahpettway/ENVS-193DS/github/ENVS-193DS_final/ENVS-
 
 ### a. Transparent statistical methods
 
+#### In part one the test used is a linear regression analysis. In part 2 they used a multiple linear regression analysis.
+
 ### b. Figure needed
+
+
 
 ### c. Suggestions for rewriting
 
